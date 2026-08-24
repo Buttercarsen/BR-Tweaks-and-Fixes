@@ -6,7 +6,7 @@ The latest official release can be found in the [releases tab](https://github.co
 
 ## Running from Source
 
-If the latest release is not working for you or if you want to Basement Renovator from source, then follow the instructions below.
+If the latest release is not working for you or if you want to run Basement Renovator from source, then follow the instructions below.
 
 - Download and install the latest version of [Python](https://www.python.org/downloads/) from the official website.
   - Make sure that you check the box to add Python to your PATH. Otherwise, the below `python` commands will not work.
