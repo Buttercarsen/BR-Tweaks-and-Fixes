@@ -6393,23 +6393,21 @@ class MainWindow(QMainWindow):
         g = settings.value("GridEnabled")
         settings.setValue("GridEnabled", "0")
 
-        ScreenshotImage = QImage(
+        screenshotImg = QImage(
             int(self.scene.sceneRect().width()),
             int(self.scene.sceneRect().height()),
             QImage.Format_ARGB32,
         )
-        ScreenshotImage.fill(QColorConstants.Transparent)
+        screenshotImg.fill(QColorConstants.Transparent)
 
-        RenderPainter = QPainter(ScreenshotImage)
-        self.scene.render(
-            RenderPainter, QRectF(ScreenshotImage.rect()), self.scene.sceneRect()
-        )
-        RenderPainter.end()
+        painter = QPainter(screenshotImg)
+        self.scene.render(painter)
+        painter.end()
 
         if mode == "file":
-            ScreenshotImage.save(filename, "PNG", 50)
+            screenshotImg.save(filename, "PNG", 50)
         elif mode == "clipboard":
-            QApplication.clipboard().setImage(ScreenshotImage, QClipboard.Clipboard)
+            QApplication.clipboard().setImage(screenshotImg, QClipboard.Clipboard)
 
         settings.setValue("GridEnabled", g)
 
