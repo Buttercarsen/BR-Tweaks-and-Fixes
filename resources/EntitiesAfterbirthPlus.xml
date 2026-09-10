@@ -26,7 +26,7 @@
   </group>
 
   <group Name="Soul Hearts">
-    <entity ID="5" Image="Entities/5.10.8 - Heart (halfsoul).png" Name="Heart (half soul)" Subtype="8" Variant="10" />
+    <entity ID="5" Image="Entities/5.10.8 - Heart (halfsoul).png" Name="Heart (Half soul)" Subtype="8" Variant="10" />
     <entity ID="5" Image="Entities/5.10.10 - Blended Heart.png" Name="Blended Heart" Subtype="10" Variant="10" />
   </group>
 
@@ -72,6 +72,7 @@
   <group Name="Special Props">
     <entity BaseHP="0" ID="999" Image="Entities/1000.116.0 - Dirt Patch.png" Name="Dirt Patch" Subtype="0" Variant="116" PlaceVisual="0,0.2">
       <tag>Grid</tag>
+      <tag>NoBlockDoors</tag>
     </entity>
   </group>
 
@@ -174,9 +175,9 @@
   <group Name="Scarred Womb Enemies">
     <entity Image="Entities/308.0.0 - Fistuloid.png" BaseHP="30" Tags="Champion" ID="308" Name="Fistuloid" Variant="0" Subtype="0" />
     <entity BaseHP="60" Tags="Champion" ID="310" Image="Entities/310.0.0 - Leper.png" Name="Leper" Subtype="0" Variant="0" />
-    <entity BaseHP="45" Tags="Champion" ID="310" Image="Entities/310.0.1 - Leper (stage 2).png" Name="Leper (stage 2)" Subtype="1" Variant="0" />
-    <entity BaseHP="30" Tags="Champion" ID="310" Image="Entities/310.0.2 - Leper (stage 3).png" Name="Leper (stage 3)" Subtype="2" Variant="0" />
-    <entity BaseHP="15" Tags="Champion" ID="310" Image="Entities/310.0.3 - Leper (stage 4).png" Name="Leper (stage 4)" Subtype="3" Variant="0" />
+    <entity BaseHP="45" Tags="Champion" ID="310" Image="Entities/310.0.1 - Leper (stage 2).png" Name="Leper (Stage 2)" Subtype="1" Variant="0" />
+    <entity BaseHP="30" Tags="Champion" ID="310" Image="Entities/310.0.2 - Leper (stage 3).png" Name="Leper (Stage 3)" Subtype="2" Variant="0" />
+    <entity BaseHP="15" Tags="Champion" ID="310" Image="Entities/310.0.3 - Leper (stage 4).png" Name="Leper (Stage 4)" Subtype="3" Variant="0" />
     <entity BaseHP="5" StageHP="1.5" ID="310" Image="Entities/311.1.0 - Leper Flesh.png" Name="Leper Flesh" Subtype="0" Variant="1" />
   </group>
 

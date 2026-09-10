@@ -1110,6 +1110,7 @@ class Entity(QGraphicsItem):
             if (
                 entitytype == EntityType["PICKUP"]
                 and variant == PickupVariant["COLLECTIBLE"]
+                and subtype != 0
             ):
                 i = anm2.loadImage("resources/Entities/5.100.0 - Collectible.png")
                 i = i.convertToFormat(QImage.Format_ARGB32)

@@ -58,7 +58,7 @@
 
   <group Name="Grids">
     <group Name="Pressure Plates">
-      <entity ID="4500" Image="Entities/4500.0.0 - Pressure Plate.png" Name="Pressure Plate (room clear)" Subtype="0" Variant="0" />
+      <entity ID="4500" Image="Entities/4500.0.0 - Pressure Plate.png" Name="Pressure Plate (Room clear)" Subtype="0" Variant="0" />
       <entity ID="4500" Image="Entities/4500.0.1 - Reward Plate.png" Name="Reward Plate" Subtype="0" Variant="1" />
     </group>
   </group>
@@ -192,7 +192,9 @@
   </group>
 
   <group Name="Necropolis Enemies">
-    <entity BaseHP="20" ID="287" Image="Entities/287.0.0 - Mom's Dead Hand.png" Name="Mom's Dead Hand" Subtype="0" Variant="0" />
+    <entity BaseHP="20" ID="287" Image="Entities/287.0.0 - Mom's Dead Hand.png" Name="Mom's Dead Hand" Subtype="0" Variant="0">
+      <tag>NoBlockDoors</tag>
+    </entity>
   </group>
 
   <group Name="Dank Depths Enemies">

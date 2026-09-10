@@ -16,6 +16,7 @@
   <tag Label="Pacers and Gushers" StatisticsGroup="1">DefaultGusher</tag>
   <tag Label="Constant Stone Shooters" StatisticsGroup="1">ConstantStoneShooters</tag>
   <tag Label="Guts" StatisticsGroup="1">GutsEnemy</tag>
+  <tag Label="Brimstone Heads" StatisticsGroup="1">BrimstoneHeads</tag>
 
   <!--——— Tabs ———-->
   <tab Name="Pickups" />
@@ -40,10 +41,10 @@
       </group>
       <group Name="Random All Pickups">
         <entity ID="5" Variant="0" Subtype="0" Name="Pickup" Image="Entities/5.0.0 - Pickup.png" />
-        <entity ID="5" Variant="0" Subtype="1" Name="Pickup (not chest or item)" Image="Entities/5.0.1 - Pickup.png" />
-        <entity ID="5" Variant="0" Subtype="2" Name="Pickup (not item)" Image="Entities/5.0.2 - Pickup.png" />
-        <entity ID="5" Variant="0" Subtype="3" Name="Greed Pickup (no chest, item, or coin)" Image="Entities/5.0.3 - Pickup.png" />
-        <entity ID="5" Variant="0" Subtype="4" Name="Pickup (no chest, item, or trinket)" Image="Entities/5.0.4 - Pickup.png" />
+        <entity ID="5" Variant="0" Subtype="1" Name="Pickup (Not chest or item)" Image="Entities/5.0.1 - Pickup.png" />
+        <entity ID="5" Variant="0" Subtype="2" Name="Pickup (Not item)" Image="Entities/5.0.2 - Pickup.png" />
+        <entity ID="5" Variant="0" Subtype="3" Name="Greed Pickup (No chest, item, or coin)" Image="Entities/5.0.3 - Pickup.png" />
+        <entity ID="5" Variant="0" Subtype="4" Name="Pickup (No chest, item, or trinket)" Image="Entities/5.0.4 - Pickup.png" />
       </group>
       <entity ID="5" Image="Entities/5.10.0 - RHeart.png" Name="Random Heart" Subtype="0" Variant="10" />
       <entity ID="5" Image="Entities/5.20.0 - RCoin.png" Name="Random Coin" Subtype="0" Variant="20" />
@@ -58,14 +59,14 @@
       <entity Name="Random Heart" />
       <group Name="Red Hearts">
         <entity ID="5" Image="Entities/5.10.1 - Heart.png" Name="Heart" Subtype="1" Variant="10" />
-        <entity ID="5" Image="Entities/5.10.2 - Heart (half).png" Name="Heart (half)" Subtype="2" Variant="10" />
-        <entity ID="5" Image="Entities/5.10.5 - Heart (double).png" Name="Heart (double)" Subtype="5" Variant="10" />
+        <entity ID="5" Image="Entities/5.10.2 - Heart (half).png" Name="Heart (Half)" Subtype="2" Variant="10" />
+        <entity ID="5" Image="Entities/5.10.5 - Heart (double).png" Name="Heart (Double)" Subtype="5" Variant="10" />
       </group>
       <group Name="Soul Hearts">
-        <entity ID="5" Image="Entities/5.10.3 - Heart (soul).png" Name="Heart (soul)" Subtype="3" Variant="10" />
+        <entity ID="5" Image="Entities/5.10.3 - Heart (soul).png" Name="Heart (Soul)" Subtype="3" Variant="10" />
       </group>
       <entity ID="5" Image="Entities/5.10.6 - Black Heart.png" Name="Black Heart" Subtype="6" Variant="10" />
-      <entity ID="5" Image="Entities/5.10.4 - Heart (eternal).png" Name="Heart (eternal)" Subtype="4" Variant="10" />
+      <entity ID="5" Image="Entities/5.10.4 - Heart (eternal).png" Name="Heart (Eternal)" Subtype="4" Variant="10" />
     </group>
     <group Label="Coins">
       <entity Name="Random Coin" />
@@ -246,7 +247,6 @@
       <group Label="Wall Huggers">
         <defaults>
           <entity>
-            <tag>InNonCombatRooms</tag>
             <tag>WallHuggers</tag>
           </entity>
         </defaults>
@@ -257,6 +257,11 @@
         <entity BaseHP="100" ID="218" Image="Entities/218.0.4 - Wall Hugger (Down).png" PlaceVisual="0,0.25" Name="Wall Hugger (Down)" Subtype="4" Variant="0" MirrorY="218.0.2" />
       </group>
       <group Label="Troll Bombs">
+        <defaults>
+          <entity>
+            <tag>InNonCombatRooms</tag>
+          </entity>
+        </defaults>
         <entity ID="5" Image="Entities/4.0.3 - Troll Bomb.png" Name="Troll Bomb" Subtype="3" Variant="40" />
         <entity ID="5" Image="Entities/4.0.4 - Megatroll Bomb.png" Name="Megatroll Bomb" Subtype="5" Variant="40" />
       </group>
@@ -320,6 +325,7 @@
       <defaults>
         <entity>
           <tag>Grid</tag>
+          <tag>NoBlockDoors</tag>
         </entity>
       </defaults>
       <entity ID="10000" Image="Entities/10000.0.0 - Gravity.png" Name="Gravity" Subtype="0" Variant="0" />
@@ -338,6 +344,11 @@
         <tag>NoBlockDoors</tag>
       </entity>
       <group Name="Shopkeepers">
+          <defaults>
+            <entity>
+              <tag>NoBlockDoors</tag>
+            </entity>
+          </defaults>
         <entity BaseHP="5" ID="17" Image="Entities/17.0.0 - Keeper.png" Name="Keeper" Subtype="0" Variant="0" />
         <entity BaseHP="5" ID="17" Image="Entities/17.1.0 - Hanging Keeper.png" Name="Hanging Keeper" Subtype="0" Variant="1" />
         <entity BaseHP="5" ID="17" Image="Entities/17.2.0 - Error Room Keeper.png" Name="Error Room Keeper" Subtype="0" Variant="2" />
@@ -674,7 +685,9 @@
     <entity Name="Blind Creep" />
     <entity BaseHP="10" ID="241" Image="Entities/241.0.0 - Rage Creep.png" PlaceVisual="WallSnap" Name="Rage Creep" Subtype="0" Variant="0" />
     <entity BaseHP="20" ID="212" Image="Entities/212.0.0 - Death's Head.png" Name="Death's Head" Subtype="0" Variant="0" />
-    <entity BaseHP="20" ID="213" Image="Entities/213.0.0 - Mom's Hand.png" Name="Mom's Hand" Subtype="0" Variant="0" />
+    <entity BaseHP="20" ID="213" Image="Entities/213.0.0 - Mom's Hand.png" Name="Mom's Hand" Subtype="0" Variant="0">
+      <tag>NoBlockDoors</tag>
+    </entity>
     <entity Name="Tumor" />
     <entity BaseHP="20" Tags="Champion" ID="32" Image="Entities/32.0.0 - Brain.png" Name="Brain" Subtype="0" Variant="0" />
     <entity Name="Dip" />
@@ -835,10 +848,17 @@
   <group Name="Sheol Obstacles">
     <entity Name="Gaping Maw" />
     <entity Name="Stone Eye" />
+    <group Name="Brimstone Heads">
+      <defaults>
+        <entity>
+          <tag>BrimstoneHeads</tag>
+        </entity>
+      </defaults>
     <entity BaseHP="1" ID="203" Image="Entities/203.0.0 - Brimstone Head.png" Name="Brimstone Head (Left)" Subtype="0" Variant="0" MirrorX="203.0.2" />
     <entity BaseHP="1" ID="203" Image="Entities/203.0.1 - Brimstone Head.png" Name="Brimstone Head (Up)" Subtype="1" Variant="0" MirrorY="203.0.3" />
     <entity BaseHP="1" ID="203" Image="Entities/203.0.2 - Brimstone Head.png" Name="Brimstone Head (Right)" Subtype="2" Variant="0" MirrorX="203.0.0" />
     <entity BaseHP="1" ID="203" Image="Entities/203.0.3 - Brimstone Head.png" Name="Brimstone Head (Down)" Subtype="3" Variant="0" MirrorY="203.0.1" />
+    </group>
   </group>
 
   <group Name="Cathedral Enemies">
@@ -924,7 +944,7 @@
       <entity BaseHP="300" ID="261" Image="Entities/261.0.0 - Dingle.png" Name="Dingle" Subtype="0" Variant="0" />
     </group>
     <group Name="Gurgling (Boss)">
-      <entity BaseHP="90" ID="237" Image="Entities/237.1.0 - Gurgling (boss).png" Name="Gurgling (boss)" Subtype="0" Variant="1" />
+      <entity BaseHP="90" ID="237" Image="Entities/237.1.0 - Gurgling (boss).png" Name="Gurgling (Boss)" Subtype="0" Variant="1" />
     </group>
   </group>
 
@@ -1058,8 +1078,8 @@
     <entity BaseHP="645" ID="45" Image="Entities/45.0.0 - Mom.png" Name="Mom" Subtype="0" Variant="0" />
     <entity BaseHP="950" ID="78" Image="Entities/78.0.0 - Mom's Heart.png" Name="Mom's Heart" Subtype="0" Variant="0" />
     <entity BaseHP="950" ID="78" Image="Entities/78.1.0 - It Lives.png" Name="It Lives" Subtype="0" Variant="1" />
-    <entity BaseHP="2000" ID="102" Image="Entities/102.0.0 - Isaac (final boss).png" Name="Isaac (boss)" Subtype="0" Variant="0" />
-    <entity BaseHP="2000" ID="102" Image="Entities/102.1.0 - Blue Baby (final boss).png" Name="??? (boss)" Subtype="0" Variant="1" />
+    <entity BaseHP="2000" ID="102" Image="Entities/102.0.0 - Isaac (final boss).png" Name="Isaac (Boss)" Subtype="0" Variant="0" />
+    <entity BaseHP="2000" ID="102" Image="Entities/102.1.0 - Blue Baby (final boss).png" Name="??? (Boss)" Subtype="0" Variant="1" />
     <entity BaseHP="600" ID="84" Image="Entities/84.0.0 - Satan.png" PlaceVisual="0,2" Name="Satan" Subtype="0" Variant="0" />
     <entity BaseHP="600" ID="84" Image="Entities/84.10.0 - Satan Stomp.png" Name="Satan Phase 2 (Stomp)" Subtype="0" Variant="10" />
     <entity BaseHP="2000" ID="273" Image="Entities/273.0.0 - The Lamb.png" Name="The Lamb" Subtype="0" Variant="0" />
@@ -1087,8 +1107,8 @@
       <entity ID="4" Image="Entities/4.0.0 - Bomb.png" Name="Active Bomb" Subtype="0" Variant="0" />
       <entity ID="4" Image="Entities/4.0.1 - Big Bomb.png" Name="Big Bomb" Subtype="0" Variant="1" />
       <entity ID="4" Image="Entities/4.0.2 - Decoy Bomb.png" Name="Decoy Bomb" Subtype="0" Variant="2" />
-      <entity ID="4" Image="Entities/4.0.3 - Troll Bomb.png" Name="Troll Bomb (player)" Subtype="0" Variant="3" />
-      <entity ID="4" Image="Entities/4.0.4 - Megatroll Bomb.png" Name="Megatroll Bomb (player)" Subtype="0" Variant="4" />
+      <entity ID="4" Image="Entities/4.0.3 - Troll Bomb.png" Name="Troll Bomb (Player)" Subtype="0" Variant="3" />
+      <entity ID="4" Image="Entities/4.0.4 - Megatroll Bomb.png" Name="Megatroll Bomb (Player)" Subtype="0" Variant="4" />
       <entity ID="4" Image="Entities/4.0.5 - Poison Bomb.png" Name="Poison Bomb" Subtype="0" Variant="5" />
       <entity ID="4" Image="Entities/4.0.6 - Big Poison Bomb.png" Name="Big Poison Bomb" Subtype="0" Variant="6" />
       <entity ID="4" Image="Entities/4.0.7 - Sad Bomb.png" Name="Sad Bomb" Subtype="0" Variant="7" />
@@ -1125,9 +1145,9 @@
       <entity Image="Entities/1500.0.0 - Poop.png" Name="Pushable Poop" ID="245" Subtype="0" Variant="0" />
     </group>
     <group Label="Broken">
-      <entity ID="1" Image="Entities/1.0.0 - Player.png" Name="Player (crashes)" Subtype="0" Variant="0" />
+      <entity ID="1" Image="Entities/1.0.0 - Player.png" Name="Player (Crashes)" Subtype="0" Variant="0" />
       <entity ID="3" Image="Entities/3.0.0 - Familiar.png" Name="Familiar (No Effect)" Subtype="0" Variant="0" />
-      <entity ID="7" Image="Entities/7.0.0 - Laser.png" Name="Laser (crashes)" Subtype="0" Variant="0" />
+      <entity ID="7" Image="Entities/7.0.0 - Laser.png" Name="Laser (Crashes)" Subtype="0" Variant="0" />
       <entity ID="8" Image="Entities/8.0.0 - Knife.png" Name="Knife" Subtype="0" Variant="0" />
     </group>
   </group>
