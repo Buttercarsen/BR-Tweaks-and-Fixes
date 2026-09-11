@@ -159,8 +159,8 @@
       <Entity ID="6001" Variant="33" Image="Backgrounds/pit_utero.png" />
       <!-- End Rails Group -->
       <Entity ID="3009" Image="Backgrounds/pit_utero.png" />
-      <Entity ID="1009" Image="Backgrounds/rocks_womb.png" />
-      <Entity ID="1000" SubType="1" Image="Backgrounds/rocks_womb.png" />
+      <Entity ID="1009" Image="Backgrounds/rocks_utero.png" />
+      <Entity ID="1000" SubType="1" Image="Backgrounds/rocks_utero.png" />
     </Gfx>
   </stage>
   <stage Name="Scarred Womb">
@@ -259,6 +259,8 @@
       <Entity ID="6001" Variant="33" Image="Backgrounds/pit_darkroom.png" />
       <!-- End Rails Group -->
       <Entity ID="3009" Image="Backgrounds/pit_darkroom.png" />
+      <Entity ID="1009" Image="Backgrounds/rocks_sheol.png" />
+      <Entity ID="1000" SubType="1" Image="Backgrounds/rocks_sheol.png" />
     </Gfx>
   </stage>
 
