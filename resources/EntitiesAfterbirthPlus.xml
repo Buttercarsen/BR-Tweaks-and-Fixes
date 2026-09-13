@@ -62,7 +62,7 @@
 
   <!--——— Global ———-->
   <group Name="Poops">
-    <entity ID="1498" Image="Entities/1498.0.0 - Holy Poop.png" Name="Holy Poop" Subtype="0" Variant="0" />
+    <entity ID="1498" Image="Entities/1498.0.0 - Holy Poop.png" PlaceVisual="0,0.03" Name="Holy Poop" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Machines">

@@ -53,7 +53,7 @@
 
   <!--——— Global ———-->
   <group Name="TNT">
-    <entity ID="292" Image="Entities/292.0.0 - Pushable TNT.png" Name="Pushable TNT" Subtype="0" Variant="0" />
+    <entity ID="292" Image="Entities/292.0.0 - Pushable TNT.png" PlaceVisual="0,0.05" Name="Pushable TNT" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Grids">
@@ -64,7 +64,7 @@
   </group>
 
   <group Name="Poops">
-    <entity ID="1497" Image="Entities/1497.0.0 - Black Poop.png" Name="Black Poop" Subtype="0" Variant="0" />
+    <entity ID="1497" Image="Entities/1497.0.0 - Black Poop.png" PlaceVisual="0,0.03" Name="Black Poop" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Beggars">
@@ -280,7 +280,9 @@
   </group>
 
   <group Name="Catacombs Bosses">
-    <entity BaseHP="200" ID="62" Image="Entities/62.2.0 - The Frail.png" Name="The Frail" Subtype="0" Variant="2" />
+    <entity BaseHP="200" ID="62" Image="Entities/62.2.0 - The Frail.png" Name="The Frail" Subtype="0" Variant="2">
+      <tag>NoBlockDoors</tag>
+    </entity>
     <entity BaseHP="220" ID="403" Image="Entities/403.0.0 - The Forsaken.png" Name="The Forsaken" Subtype="0" Variant="0" />
   </group>
 

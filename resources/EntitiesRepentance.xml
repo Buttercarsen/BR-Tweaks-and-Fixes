@@ -144,8 +144,8 @@
   </group>
 
   <group Name="Rocks">
-    <entity ID="1010" Image="Entities/1010.0.0 - Spike Rock.png" Name="Spike Rock" Subtype="0" Variant="0" />
-    <entity ID="1011" Image="Entities/1011.0.0 - Fool's Gold Rock.png" Name="Fool's Gold Rock" Subtype="0" Variant="0" />
+    <entity ID="1010" Image="Entities/1010.0.0 - Spike Rock.png" PlaceVisual="0,0.03" Name="Spike Rock" Subtype="0" Variant="0" />
+    <entity ID="1011" Image="Entities/1011.0.0 - Fool's Gold Rock.png" PlaceVisual="0,0.03" Name="Fool's Gold Rock" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Alt Rocks">
@@ -153,7 +153,7 @@
   </group>
 
   <group Name="Metal Blocks">
-    <entity ID="1901" Image="Entities/1901.0.0 - Tall Block.png" Name="Tall Block" Variant="0" Subtype="0" />
+    <entity ID="1901" Image="Entities/1901.0.0 - Tall Block.png" PlaceVisual="0,0.05" Name="Tall Block" Variant="0" Subtype="0" />
     <entity ID="1999" Image="Entities/1999.0.0 - Invisible Block.png" Name="Invisible Block" Subtype="0" Variant="0" />
   </group>
 
@@ -205,15 +205,15 @@
   </group>
 
   <group Name="Normal Poops">
-    <entity ID="1500" Image="Entities/1500.0.1 - Poop (non-replaceable).png" Name="Poop (Non-replaceable)" Subtype="1" Variant="0" OverlayImage="Overlays/NonRandom.png" EditorImage="Entities/1500.0.0 - Poop.png" />
+    <entity ID="1500" Image="Entities/1500.0.1 - Poop (non-replaceable).png" PlaceVisual="0,0.03" Name="Poop (Non-replaceable)" Subtype="1" Variant="0" OverlayImage="Overlays/NonRandom.png" EditorImage="Entities/1500.0.0 - Poop.png" />
   </group>
 
   <group Name="Chunky Poops">
-    <entity ID="1495" Image="Entities/1495.0.1 - Chunky Poop (non-replaceable).png" Name="Chunky Poop (Non-replaceable)" Subtype="1" Variant="0" OverlayImage="Overlays/NonRandom.png" EditorImage="Entities/1495.0.0 - Chunky Poop.png" />
+    <entity ID="1495" Image="Entities/1495.0.1 - Chunky Poop (non-replaceable).png" PlaceVisual="0,0.03" Name="Chunky Poop (Non-replaceable)" Subtype="1" Variant="0" OverlayImage="Overlays/NonRandom.png" EditorImage="Entities/1495.0.0 - Chunky Poop.png" />
   </group>
 
   <group Name="Poops">
-    <entity ID="1501" Image="Entities/1501.0.0 - Charming Poop.png" Name="Charming Poop" Subtype="0" Variant="0" />
+    <entity ID="1501" Image="Entities/1501.0.0 - Charming Poop.png" PlaceVisual="0,0.03" Name="Charming Poop" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Retracting Spikes">
@@ -383,7 +383,7 @@
     <entity ID="970" Image="Entities/970.2.0 - Quest Door.png" Name="Quest Door" PlaceVisual="WallSnap" Subtype="0" Variant="2">
       <tag>NoBlockDoors</tag>
     </entity>
-    <entity BaseHP="5" ID="33" Image="Entities/33.4.0 - White Fire Place.png" Name="White Fire Place" Variant="4" Subtype="0" />
+    <entity BaseHP="5" ID="33" Image="Entities/33.4.0 - White Fire Place.png" PlaceVisual="0,0.03" Name="White Fire Place" Variant="4" Subtype="0" />
   </group>
 
   <group Name="Chapter 1 (Alt Path) Enemies">
@@ -466,7 +466,7 @@
     <entity ID="999" Image="Entities/1000.141.1 - Smoke Cloud.png" Name="Smoke Cloud" Variant="141" Subtype="1">
       <tag>NoBlockDoors</tag>
     </entity>
-    <entity ID="1499" Image="Entities/1499.0.0 - Giant Poop.png" Name="Giant Poop" Subtype="0" Variant="0">
+    <entity ID="1499" Image="Entities/1499.0.0 - Giant Poop.png" PlaceVisual="1,1.1" Name="Giant Poop" Subtype="0" Variant="0">
       <tag>Grid</tag>
     </entity>
   </group>
@@ -859,8 +859,8 @@
             <tag>HalfHeartEnemy</tag>
           </entity>
         </defaults>
-        <entity BaseHP="40" ID="92" Image="Entities/92.1.0 - 1_2 Heart.png" Name="1/2 Heart (Left)" Variant="1" Subtype="0" />
-        <entity BaseHP="40" ID="92" Image="Entities/92.1.1 - 1_2 Heart.png" Name="1/2 Heart (Right)" Variant="1" Subtype="1" />
+        <entity BaseHP="40" ID="92" Image="Entities/92.1.0 - 1_2 Heart.png" Name="1/2 Heart (Left)" Variant="1" Subtype="0" MirrorX="92.1.1" />
+        <entity BaseHP="40" ID="92" Image="Entities/92.1.1 - 1_2 Heart.png" Name="1/2 Heart (Right)" Variant="1" Subtype="1" MirrorX="92.1.0" />
       </group>
       <entity BaseHP="40" ID="93" Image="Entities/93.1.0 - Mask II.png" Name="Mask II" Variant="1" Subtype="0" />
     </group>
@@ -1051,7 +1051,9 @@
   </group>
 
   <group Name="Chapter 1 Bosses (Alt Path) Shared">
-    <entity BaseHP="200" ID="62" Image="Entities/62.3.0 - Wormwood.png" Name="Wormwood" Variant="3" Subtype="0" />
+    <entity BaseHP="200" ID="62" Image="Entities/62.3.0 - Wormwood.png" PlaceVisual="0,0.3" Name="Wormwood" Variant="3" Subtype="0">
+      <tag>NoBlockDoors</tag>
+    </entity>
     <entity BaseHP="200" ID="901" Image="Entities/901.0.0 - Lil Blub.png" Name="Lil Blub" Variant="0" Subtype="0" />
   </group>
 
