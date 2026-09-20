@@ -69,6 +69,12 @@
     <entity ID="6" Image="Entities/6.12.0 - Mom's Dressing Table.png" Name="Mom's Dressing Table" Subtype="0" Variant="12" />
   </group>
 
+  <group Name="Exits">
+    <entity ID="9000" Image="Entities/9000.1.0 - Void Trap Door.png" Name="Void Trap Door" Variant="1" Subtype="0" PlaceVisual="0,0.42">
+      <tag>Grid</tag>
+    </entity>
+  </group>
+
   <group Name="Special Props">
     <entity BaseHP="0" ID="999" Image="Entities/1000.116.0 - Dirt Patch.png" Name="Dirt Patch" Subtype="0" Variant="116" PlaceVisual="0,0.2">
       <tag>Grid</tag>
@@ -212,7 +218,7 @@
   </group>
 
   <group Name="Chapter 3 Bosses (Main Path) Shared">
-    <entity BaseHP="800" ID="410" Image="Entities/265.1.0 - SistersVis.png" Name="Sisters Vis" Subtype="0" Variant="0" />
+    <entity BaseHP="800" ID="410" Image="Entities/410.0.0 - SistersVis.png" Name="Sisters Vis" Subtype="0" Variant="0" />
   </group>
 
   <group Name="Scarred Womb Bosses">

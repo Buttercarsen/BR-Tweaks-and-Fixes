@@ -409,8 +409,8 @@
           <tag>NoBlockDoors</tag>
         </entity>
         <entity BaseHP="130" Boss="1" Champion="0" ID="901" Image="Entities/901.0.0 - Lil Blub.png" Name="Beelzeblub" Subtype="0" Variant="0" />
-        <entity BaseHP="200" Boss="1" Champion="0" ID="902" Image="Entities/902.0.0 - Rainmaker.png" Name="Rainmaker" Subtype="0" Variant="0" />
-        <entity Name="Haunt" />
+        <entity BaseHP="200" Boss="1" Champion="0" ID="902" Image="Entities/902.0.0 - Rainmaker.png" Name="The Rainmaker" Subtype="0" Variant="0" />
+        <entity Name="The Haunt" />
       </group>
     </group>
   </group>
@@ -430,9 +430,9 @@
     <group Name="Chapter 3 Bosses (Alt Path)" Label="Chapter 3 (Alt Path)">
       <group Name="Mausoleum Bosses" Label="Mausoleum">
         <entity Name="The Pile" />
-        <entity BaseHP="620" Boss="1" Champion="0" ID="903" Image="Entities/903.0.0 - Visage Heart.png" Name="Visage Heart" Subtype="0" Variant="0" />
+        <entity BaseHP="620" Boss="1" Champion="0" ID="903" Image="Entities/903.0.0 - Visage Heart.png" Name="The Visage" Subtype="0" Variant="0" />
         <entity BaseHP="100" Boss="1" Champion="0" ID="903" Image="Entities/903.1.0 - Visage Mask.png" Name="Visage Mask" Subtype="0" Variant="1" />
-        <entity BaseHP="666" Boss="1" Champion="0" ID="904" Image="Entities/904.0.0 - Siren.png" Name="Siren" Subtype="0" Variant="0" />
+        <entity BaseHP="666" Boss="1" Champion="0" ID="904" Image="Entities/904.0.0 - Siren.png" Name="The Siren" Subtype="0" Variant="0" />
         <entity BaseHP="789" Boss="1" Champion="0" ID="905" Image="Entities/905.0.0 - The Heretic.png" Name="The Heretic" Subtype="0" Variant="0" />
       </group>
     </group>

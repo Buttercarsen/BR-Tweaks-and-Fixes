@@ -5,7 +5,6 @@
 
   <group Name="Active Items">
     <entity ID="5" Image="Entities/Items/5.100.263 - Clear Rune.png" Name="Clear Rune" Subtype="263" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.474 - Broken Glass Cannon.png" Name="Broken Glass Cannon" Subtype="474" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.555 - Golden Razor.png" Name="Golden Razor" Subtype="555" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.556 - Sulfur.png" Name="Sulfur" Subtype="556" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.557 - Fortune Cookie.png" Name="Fortune Cookie" Subtype="557" Variant="100" />
