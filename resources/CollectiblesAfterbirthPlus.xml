@@ -9,7 +9,7 @@
     <entity ID="5" Image="Entities/Items/5.100.480 - Compost.png" Name="Compost" Subtype="480" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.481 - Dataminer.png" Name="Dataminer" Subtype="481" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.482 - Clicker.png" Name="Clicker" Subtype="482" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.483 - MaMa Mega!.png" Name="MaMa Mega!" Subtype="483" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.483 - MaMa Mega!.png" Name="Mama Mega!" Subtype="483" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.484 - Wait What.png" Name="Wait What?" Subtype="484" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.485 - Crooked Penny.png" Name="Crooked Penny" Subtype="485" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.486 - Dull Razor.png" Name="Dull Razor" Subtype="486" Variant="100" />
@@ -27,8 +27,7 @@
     <entity ID="5" Image="Entities/Items/5.100.522 - Telekinesis.png" Name="Telekinesis" Subtype="522" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.523 - Moving Box.png" Name="Moving Box" Subtype="523" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.527 - Mr. ME!.png" Name="Mr. ME!" Subtype="527" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.534 - Schoolbag.png" Name="Schoolbag" Subtype="534" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.536 - Sacrificial Altar.png" Name="Schoolbag" Subtype="536" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.536 - Sacrificial Altar.png" Name="Sacrificial Altar" Subtype="536" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.545 - Book of the Dead.png" Name="Book of the Dead" Subtype="545" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.550 - Broken Shovel.png" Name="Broken Shovel" Subtype="550" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.552 - Mom's Shovel.png" Name="Mom's Shovel" Subtype="552" Variant="100" />
@@ -61,7 +60,7 @@
   </group>
 
   <group Name="Passive Items">
-    <entity ID="5" Image="Entities/Items/5.100.442 - Dark Princes Crown.png" Name="Dark Princes Crown" Subtype="442" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.442 - Dark Princes Crown.png" Name="Dark Prince's Crown" Subtype="442" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.443 - Apple!.png" Name="Apple!" Subtype="443" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.444 - Lead Pencil.png" Name="Lead Pencil" Subtype="444" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.445 - Dog Tooth.png" Name="Dog Tooth" Subtype="445" Variant="100" />
@@ -75,7 +74,7 @@
     <entity ID="5" Image="Entities/Items/5.100.453 - Compound Fracture.png" Name="Compound Fracture" Subtype="453" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.454 - Polydactyly.png" Name="Polydactyly" Subtype="454" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.455 - Dads Lost Coin.png" Name="Dad's Lost Coin" Subtype="455" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.456 - Moldy Bread.png" Name="Moldy Bread" Subtype="456" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.456 - Moldy Bread.png" Name="Midnight Snack" Subtype="456" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.457 - Cone Head.png" Name="Cone Head" Subtype="457" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.458 - Belly Button.png" Name="Belly Button" Subtype="458" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.459 - Sinus Infection.png" Name="Sinus Infection" Subtype="459" Variant="100" />
@@ -86,7 +85,7 @@
     <entity ID="5" Image="Entities/Items/5.100.464 - Glyph of Balance.png" Name="Glyph of Balance" Subtype="464" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.465 - Analog Stick.png" Name="Analog Stick" Subtype="465" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.466 - Contagion.png" Name="Contagion" Subtype="466" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.493 - Adderline.png" Name="Adderline" Subtype="493" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.493 - Adderline.png" Name="Adrenaline" Subtype="493" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.494 - Jacob's Ladder.png" Name="Jacob's Ladder" Subtype="494" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.495 - Ghost Pepper.png" Name="Ghost Pepper" Subtype="495" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.496 - Euthanasia.png" Name="Euthanasia" Subtype="496" Variant="100" />
@@ -97,7 +96,7 @@
     <entity ID="5" Image="Entities/Items/5.100.502 - Large Zit.png" Name="Large Zit" Subtype="502" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.503 - Little Horn.png" Name="Little Horn" Subtype="503" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.505 - Poke Go.png" Name="Poke Go" Subtype="505" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.506 - BackStabber.png" Name="BackStabber" Subtype="506" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.506 - BackStabber.png" Name="Backstabber" Subtype="506" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.513 - Bozo.png" Name="Bozo" Subtype="513" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.514 - Broken Modem.png" Name="Broken Modem" Subtype="514" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.517 - Fast Bombs.png" Name="Fast Bombs" Subtype="517" Variant="100" />
@@ -109,6 +108,7 @@
     <entity ID="5" Image="Entities/Items/5.100.531 - Haemolacria.png" Name="Haemolacria" Subtype="531" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.532 - Lachryphagy.png" Name="Lachryphagy" Subtype="532" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.533 - Trisagion.png" Name="Trisagion" Subtype="533" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.534 - Schoolbag.png" Name="Schoolbag" Subtype="534" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.535 - Blanket.png" Name="Blanket" Subtype="535" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.538 - Marbles.png" Name="Marbles" Subtype="538" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.540 - Flat Stone.png" Name="Flat Stone" Subtype="540" Variant="100" />

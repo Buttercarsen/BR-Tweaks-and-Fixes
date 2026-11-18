@@ -113,6 +113,7 @@
     <entity ID="5" Image="Entities/Items/5.100.100 - Little Steven.png" Name="Little Steven" Subtype="100" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.112 - Guardian Angel.png" Name="Guardian Angel" Subtype="112" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.113 - Demon Baby.png" Name="Demon Baby" Subtype="113" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.117 - Dead Bird.png" Name="Dead Bird" Subtype="117" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.128 - Forever alone.png" Name="Forever alone" Subtype="128" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.131 - Bomb Bag.png" Name="Bomb Bag" Subtype="131" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.144 - Bum Friend.png" Name="Bum Friend" Subtype="144" Variant="100" />
@@ -140,9 +141,9 @@
     <entity ID="5" Image="Entities/Items/5.100.272 - BBF.png" Name="BBF" Subtype="272" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.273 - Bob's Brain.png" Name="Bob's Brain" Subtype="273" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.274 - Best Bud.png" Name="Best Bud" Subtype="274" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.275 - Lil' Brimstone.png" Name="Lil' Brimstone" Subtype="275" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.275 - Lil' Brimstone.png" Name="Lil Brimstone" Subtype="275" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.276 - Isaac's Heart.png" Name="Isaac's Heart" Subtype="276" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.277 - Lil' Haunt.png" Name="Lil' Haunt" Subtype="277" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.277 - Lil' Haunt.png" Name="Lil Haunt" Subtype="277" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.278 - Dark Bum.png" Name="Dark Bum" Subtype="278" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.279 - Big Fan.png" Name="Big Fan" Subtype="279" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.280 - Sissy Longlegs.png" Name="Sissy Longlegs" Subtype="280" Variant="100" />
@@ -222,7 +223,6 @@
     <entity ID="5" Image="Entities/Items/5.100.114 - Mom's Knife.png" Name="Mom's Knife" Subtype="114" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.115 - Ouija Board.png" Name="Ouija Board" Subtype="115" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.116 - 9 Volt.png" Name="9 Volt" Subtype="116" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.117 - Dead Bird.png" Name="Dead Bird" Subtype="117" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.118 - Brimstone.png" Name="Brimstone" Subtype="118" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.119 - Blood Bag.png" Name="Blood Bag" Subtype="119" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.120 - Odd Mushroom.png" Name="Odd Mushroom" Subtype="120" Variant="100" />

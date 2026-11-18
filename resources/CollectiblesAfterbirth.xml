@@ -13,7 +13,7 @@
     <entity ID="5" Image="Entities/Items/5.100.406 - D8.png" Name="D8" Subtype="406" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.419 - Teleport 2.0.png" Name="Teleport 2.0" Subtype="419" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.421 - Kidney Bean.png" Name="Kidney Bean" Subtype="421" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.422 - Glowing Hour Glass.png" Name="Glowing Hour Glass" Subtype="422" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.422 - Glowing Hour Glass.png" Name="Glowing Hourglass" Subtype="422" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.427 - Mine Crafter.png" Name="Mine Crafter" Subtype="427" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.434 - Jar of Flies.png" Name="Jar of Flies" Subtype="434" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.437 - D7.png" Name="D7" Subtype="437" Variant="100" />
@@ -23,7 +23,7 @@
 
   <group Name="Familiar Items">
     <entity ID="5" Image="Entities/Items/5.100.360 - Incubus.png" Name="Incubus" Subtype="360" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.361 - Fate's reward.png" Name="Fate's reward" Subtype="361" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.361 - Fate's reward.png" Name="Fate's Reward" Subtype="361" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.362 - Lil Chest.png" Name="Lil Chest" Subtype="362" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.363 - Sworn Protector.png" Name="Sworn Protector" Subtype="363" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.364 - Friend Zone.png" Name="Friend Zone" Subtype="364" Variant="100" />
@@ -42,6 +42,7 @@
     <entity ID="5" Image="Entities/Items/5.100.426 - Obsessed Fan.png" Name="Obsessed Fan" Subtype="426" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.430 - Papa Fly.png" Name="Papa Fly" Subtype="430" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.431 - Multidimensional Baby.png" Name="Multidimensional Baby" Subtype="431" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.433 - My Shadow.png" Name="My Shadow" Subtype="433" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.435 - Lil Loki.png" Name="Lil Loki" Subtype="435" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.436 - Milk!.png" Name="Milk!" Subtype="436" Variant="100" />
   </group>
@@ -59,7 +60,7 @@
     <entity ID="5" Image="Entities/Items/5.100.368 - Epiphora.png" Name="Epiphora" Subtype="368" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.369 - Continuum.png" Name="Continuum" Subtype="369" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.370 - Mr. Dolly.png" Name="Mr. Dolly" Subtype="370" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.371 - Curse of the tower.png" Name="Curse of the tower" Subtype="371" Variant="100" />
+    <entity ID="5" Image="Entities/Items/5.100.371 - Curse of the tower.png" Name="Curse of the Tower" Subtype="371" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.373 - Dead Eye.png" Name="Dead Eye" Subtype="373" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.374 - Holy Light.png" Name="Holy Light" Subtype="374" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.375 - Host Hat.png" Name="Host Hat" Subtype="375" Variant="100" />
@@ -98,7 +99,6 @@
     <entity ID="5" Image="Entities/Items/5.100.428 - PJs.png" Name="PJs" Subtype="428" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.429 - Head of the Keeper.png" Name="Head of the Keeper" Subtype="429" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.432 - Glitter Bombs.png" Name="Glitter Bombs" Subtype="432" Variant="100" />
-    <entity ID="5" Image="Entities/Items/5.100.433 - My Shadow.png" Name="My Shadow" Subtype="433" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.438 - Binky.png" Name="Binky" Subtype="438" Variant="100" />
     <entity ID="5" Image="Entities/Items/5.100.440 - Kidney Stone.png" Name="Kidney Stone" Subtype="440" Variant="100" />
   </group>
